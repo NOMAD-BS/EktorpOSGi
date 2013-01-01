@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='file:/C:/projekte/protocollator/etkorp_ws/org.ektorp.tp/dependencies/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1357052125813'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='8'>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.io' version='2.0.1.v201105210651'>
+      <properties size='3'>
+        <property name='artifact.size' value='170843'/>
+        <property name='download.size' value='170843'/>
+        <property name='download.md5' value='8c5a331d570605eda9d983596e7d6eba'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.log4j' version='1.2.15.v201012070815'>
+      <properties size='3'>
+        <property name='artifact.size' value='414383'/>
+        <property name='download.size' value='414383'/>
+        <property name='download.md5' value='b05d6f4dd809cc63661a855617227f74'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.slf4j.log4j' version='1.6.1.v20100831-0715'>
+      <properties size='3'>
+        <property name='artifact.size' value='18446'/>
+        <property name='download.size' value='18446'/>
+        <property name='download.md5' value='ba49ffbf5a5eff5ee5f733d30bbe0cd0'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.logging' version='1.1.1.v201101211721'>
+      <properties size='3'>
+        <property name='artifact.size' value='68107'/>
+        <property name='download.size' value='68107'/>
+        <property name='download.md5' value='4022178200c677cad0763cac1153f2fa'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.httpcomponents.httpcore' version='4.2.3'>
+      <properties size='3'>
+        <property name='artifact.size' value='517523'/>
+        <property name='download.size' value='517523'/>
+        <property name='download.md5' value='7adfd6423c75418287d2a6345f687770'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.httpcomponents.httpclient' version='4.2.2'>
+      <properties size='3'>
+        <property name='artifact.size' value='816363'/>
+        <property name='download.size' value='816363'/>
+        <property name='download.md5' value='03288d153fd82a9a017ef64e643f2b24'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.slf4j.api' version='1.6.1.v20100831-0715'>
+      <properties size='3'>
+        <property name='artifact.size' value='33737'/>
+        <property name='download.size' value='33737'/>
+        <property name='download.md5' value='d558b1a02dbb7e0ca84475a9b922538e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.codec' version='1.4.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='58160'/>
+        <property name='download.size' value='58160'/>
+        <property name='download.md5' value='82b899580da472be37055da949b731fa'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
