@@ -45,7 +45,8 @@
 	<modules>
 		<module>../org.ektorp</module>	
 		<module>../org.codehaus.jackson</module>	
-	    <module>../org.ektorp.feature</module>	 
+	    <module>../org.ektorp.feature</module>
+	    <module>../org.ektorp.repo</module>
 	</modules>
 
 	<!-- common repos shared by all profiles -->

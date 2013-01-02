@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.ektorp.feature_1.2.2.0.jar" id="org.ektorp.feature" version="1.2.2.0">
+      <category name="ektorp"/>
+   </feature>
+   <category-def name="ektorp" label="ektorp"/>
+</site>

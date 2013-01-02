@@ -10,7 +10,7 @@
 		<relativePath>../org.ektorp.releng/pom.xml</relativePath>
 	</parent>
 
-	<groupId>org.codehaus.jackson</groupId>
+	<groupId>org.ektorp.bundles</groupId>
 	<artifactId>org.codehaus.jackson</artifactId>
 	<version>1.8.10</version>
 	<packaging>eclipse-plugin</packaging>

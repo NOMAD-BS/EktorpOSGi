@@ -10,7 +10,7 @@
 		<relativePath>../org.ektorp.releng/pom.xml</relativePath>
 	</parent>
 
-	<groupId>org.ektorp</groupId>
+	<groupId>org.ektorp.bundles</groupId>
 	<artifactId>org.ektorp</artifactId>
 	<version>1.2.2</version>
 	<packaging>eclipse-plugin</packaging>
